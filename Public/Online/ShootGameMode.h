@@ -4,17 +4,18 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameMode.h"
-#include "ShootGameGameModeBase.generated.h"
+#include "ShootGameMode.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class SHOOTGAME_API AShootGameGameModeBase : public AGameMode
+class SHOOTGAME_API AShootGameMode : public AGameMode
 {
 	GENERATED_BODY()
 	
-	
+public:
+	AShootGameMode();
 	
 	
 };
